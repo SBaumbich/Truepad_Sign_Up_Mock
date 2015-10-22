@@ -1,0 +1,155 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 10px;
+  background: url(http://www.weebly.com/editor/uploads/5/0/6/7/50678665/custom_themes/435764490337683574/files/bgpic.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+form {
+  background: rgba(0,0,0, .7);
+  padding: 4em 4em 2em;
+  max-width: 300px;
+  margin: 25px auto 50px;
+  box-shadow: 0 0 1em #222;
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: 'Lato', serif;
+  margin:0;
+}
+
+h2 {
+  color: #CBCBCB;
+  font-size: 2.2em;
+  font-family: 'Lato', serif;
+  margin-bottom:0;
+}
+p {
+  margin: 0 0 3em 0;
+  position: relative;
+  margin-bottom:10px;
+}
+
+a {
+text-decoration:none;
+color:blue;
+}
+#tos{
+color: #CBCBCB;
+}
+#signUp{
+  float:right;
+  color:#CBCBCB;
+  margin-top: 20px;
+  font-size:2em;
+}
+
+#truepadLogo {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#password,#confirm_password {
+  color: rgba(211,46,48, 1.0);
+}
+
+/*
+#email,#password,#confirm_password {
+  background-image: url("http://uxrepo.com/static/icon-sets/iconic/png32/24/000000/cancel-24-000000.png");
+  background-repeat:no-repeat;
+  background-position:right center;
+*/
+}
+
+label {
+  display: block;
+  font-size: 1.45em;
+  margin: 0 0 .5em;
+  color: #CBCBCB;
+}
+
+.resize {
+height:auto;
+width: 20px;
+padding-left: 10px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+}
+input[type="text"],
+input[type="password"],input {
+  background: rgba(245,245,245,.2);
+  border: 1.5px solid rgba(211,46,48, 1.0);
+  font-size: 1.6em;
+  padding: .8em .5em;
+  border-radius: 5px;
+  color:white;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background: rgba(245,245,245,.5);
+  color: white;
+}
+span {
+  border-radius: 5px;
+  display: block;
+  font-size: 1.3em;
+  text-align: center;
+  position: absolute;
+  background: rgba(211,46,48, .8);
+  left: 105%;
+  top: 25px;
+  width: 160px;
+  padding: 7px 10px;
+  color: #CBCBCB;
+}
+span:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #2F558E;
+  border-width: 8px;
+  margin-top: -8px;
+}
+input[type="submit"] {
+  margin: auto;
+  width: 60%;
+  background: rgba(211,46,48, .8);
+  box-shadow: 2px 3px rgba(185,35,35,.30);
+  border-radius: 5px;
+  border: none;
+  color: #CBCBCB;
+  cursor: pointer;
+  display: block;
+  font-size: 1.9em;
+  line-height: 1.1em;
+  outline: none;
+  padding: .8em 0;
+  text-shadow: 0 1px black;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+
+//----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
